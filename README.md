@@ -7,5 +7,5 @@
   
 ## In this repo  
 [Avatar Creation Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Avatar%20Creation%20info.md)  
-[Application Connections and where they go](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Application%20Connections.md)
-[File Locations and info] https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/file-locations-and-info.md
+[Application Connections and where they go](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Application%20Connections.md)  
+[File Locations and info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/file-locations-and-info.md)
