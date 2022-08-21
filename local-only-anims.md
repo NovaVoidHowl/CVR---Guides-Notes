@@ -1,5 +1,12 @@
 # Local only animation  
 
+> ___  
+> ### ⚠️ **Notice!**  
+>   
+> Pending verification of stablity, don't use this method yet  
+> ___  
+  
+
 To create animations that a local only we need a local parameter that can be driven using the `CVR parameter Stream` script object
 
 So to start create the local param  I used `#DeviceMode`, this is used to limit when an action will trigger and due to the `#` it will only ever update localy. 
