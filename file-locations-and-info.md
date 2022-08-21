@@ -1,4 +1,4 @@
-# File Location and Info
+# File Locations and Info
 
 | File path | file type  | note|
 |:---------:|:-------:|:-------:|
