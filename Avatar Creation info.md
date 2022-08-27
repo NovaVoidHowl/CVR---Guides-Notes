@@ -1,6 +1,7 @@
 # Avatar Creation Info  
   
 ## Default Avatar Parameters  
+ 
 
 |  Name      |  Type  |  
 |:----------:|:------:|  
@@ -17,6 +18,8 @@
 |Prone       |  Bool  |  
 |Flying      |  Bool  |  
   
+Thanks to [kafeijao](https://github.com/kafeijao), for the tools to see this info in a quick and easy way. 
+
 ---  
 ## Game Object Dropdown  
 
