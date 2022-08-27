@@ -1,5 +1,23 @@
-# Avatar Creation Info
+# Avatar Creation Info  
+  
+## Default Avatar Parameters  
 
+|  Name      |  Type  |  
+|:----------:|:------:|  
+|MovementX   |  Float |  
+|MovementY   |  Float |  
+|Grounded    |  Bool  |  
+|Emote       |  Int   |  
+|CancelEmote |  Bool  |  
+|GestureLeft |  Int   |  
+|GestureRight|  Int   |  
+|Toggle      |  Int   |  
+|Sitting     |  Bool  |  
+|Crouching   |  Bool  |  
+|Prone       |  Bool  |  
+|Flying      |  Bool  |  
+  
+---  
 ## Game Object Dropdown  
 
 in order to make a game object dropdown such as this  
