@@ -10,6 +10,7 @@
 
 [CVRPrefabs](https://www.cvrprefabs.com)
 
+[Prop Attachment - by Shin](https://forums.abinteractive.net/d/306-prop-cvr-attachment-tutorial)
 ---
 ## In this repo  
 
