@@ -8,11 +8,14 @@
   
 ### Comunity Resources
 
-[CVRPrefabs](https://www.cvrprefabs.com)
+[CVRPrefabs](https://www.cvrprefabs.com)  
 
-[Prop Attachment - by Shin](https://forums.abinteractive.net/d/306-prop-cvr-attachment-tutorial)
+#### Tutorials
+
+[Prop Attachment - by Shin](https://forums.abinteractive.net/d/306-prop-cvr-attachment-tutorial)  
+
 ---
-## In this repo  
+## In This Repo  
 
 ### Prefabs
 [Prefabs Testing List](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/CVR-prefabs-Validation.md)  
