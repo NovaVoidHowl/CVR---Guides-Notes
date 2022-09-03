@@ -12,3 +12,5 @@ This is my list of prefabs (mostly shader stuff) that I have tested so far.
 |    Poiyome Shader |    Poiyomi Pro    |     8.1.138         | Working             |   https://www.patreon.com/poiyomi/posts                  |
 |     Thorinair    	|    LumaDriver   	|      4.1.0         	| Working |  https://github.com/Thorinair/LumaDriver-for-ChilloutVR/releases    	 |
 |     Tholin        |   1802-Namebadge  |     1.1             | Working <br> (Note you need to turn off shader filter for it to work)| https://github.com/89Mods/1802-Namebadge/ |
+|     Tsunamoo        |   DJ Gear Pack with AudioLink Support  |     3.1           | Working | https://booth.pm/en/items/3104007 |
+|     Tsunamoo        |   Speakers with AudioLink Support |     2.0          | Working | https://booth.pm/en/items/3127194 |
