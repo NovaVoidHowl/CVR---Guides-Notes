@@ -19,6 +19,9 @@
 
 ### Prefabs
 [Prefabs Testing List](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/CVR-prefabs-Validation.md)  
+
+### Common resources
+[Object Interaction Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Interact-Info.md)
 ### Avatar resources
 [Avatar Creation Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Avatar%20Creation%20info.md)  
 [Local Only Variables - (IsLocal emulation etc.)](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/local-only-anims.md)    
