@@ -1,6 +1,6 @@
 @echo off
 echo. 
-echo Welcome to VRC SDK Be Gone, version 1.0
+echo Welcome to VRC SDK Be Gone, version 1.1
 echo.
 echo This script removes VRC SDK files from unity projects, 
 echo Note you should deleate the VRC components from the 'Packages' section in unity first, this script just cleans up the 'left overs'  
@@ -51,8 +51,23 @@ del VRC.SDKBase.Editor.BuildPipeline.csproj
 del VRC.SDKBase.csproj
 del VRC.SDKBase.Editor.csproj
 del VRC.SDKBase.Editor.ShaderStripping.csproj
+del VRC.Enums.Validation.Performance.csproj
+del VRC.Udon.csproj
+del VRC.Udon.Editor.csproj
+del VRC.Udon.Editor.UPMImporter.csproj
+del VRC.Udon.Serialization.OdinSerializer.csproj
 del com.vrchat.core.vpm-resolver.Editor.csproj
 del Packages\vpm-manifest.json
+
+echo .
+echo removeing 3rdparty udon related files
+del UdonFlat.csproj
+del UdonSharp.Editor.csproj
+del UdonSharp.Runtime.csproj
+
+echo.
+echo purging udon cashe
+del -r .\Library\UdonSharpCache
 
 echo.
 echo Pruging VRC unity utils
@@ -72,7 +87,10 @@ echo Purging refrences
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content Library\EditorOnlyScriptingSettings.json) -Replace 'VRC_SDK_VRCSDK3;','' | set-content  Library\EditorOnlyScriptingSettings.json"
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content Library\EditorOnlyScriptingSettings.json) -Replace 'VRC_SDK_VRCSDK3','' | set-content  Library\EditorOnlyScriptingSettings.json"
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content Library\EditorOnlyScriptingSettings.json) -Replace 'UDON','' | set-content  Library\EditorOnlyScriptingSettings.json"
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content ProjectSettings\ProjectSettings.asset) -Replace 'VRC_SDK_VRCSDK3','' | set-content  ProjectSettings\ProjectSettings.asset"
+
+PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content ProjectSettings\ProjectSettings.asset) -Replace 'UDON','' | set-content  ProjectSettings\ProjectSettings.asset"
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content ProjectSettings\ProjectSettings.asset) -Replace 'templatePackageId: com.vrchat.template.base@1.0.0','' | set-content  ProjectSettings\ProjectSettings.asset"
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "(get-content ProjectSettings\ProjectSettings.asset) -Replace 'templateDefaultScene: Assets/VRCWelcome.unity','' | set-content  ProjectSettings\ProjectSettings.asset"
