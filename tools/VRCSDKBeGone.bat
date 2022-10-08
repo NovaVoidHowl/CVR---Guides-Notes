@@ -1,6 +1,6 @@
 @echo off
 echo. 
-echo Welcome to VRC SDK Be Gone, version 1.1
+echo Welcome to VRC SDK Be Gone, version 1.2
 echo.
 echo This script removes VRC SDK files from unity projects, 
 echo Note you should deleate the VRC components from the 'Packages' section in unity first, this script just cleans up the 'left overs'  
@@ -57,6 +57,7 @@ del VRC.Udon.Editor.csproj
 del VRC.Udon.Editor.UPMImporter.csproj
 del VRC.Udon.Serialization.OdinSerializer.csproj
 del com.vrchat.core.vpm-resolver.Editor.csproj
+del com.vrchat.sdk3a.UPMImporter.csproj
 del Packages\vpm-manifest.json
 
 echo .
