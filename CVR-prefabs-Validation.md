@@ -14,3 +14,4 @@ This is my list of prefabs (mostly shader stuff) that I have tested so far.
 |     Tholin        |   1802-Namebadge  |     1.1             | Working <br> (Note you need to turn off shader filter for it to work)| https://github.com/89Mods/1802-Namebadge/ |
 |     Tsunamoo        |   DJ Gear Pack with AudioLink Support  |     3.1           | Working | https://booth.pm/en/items/3104007 |
 |     Tsunamoo        |   Speakers with AudioLink Support |     2.0          | Working | https://booth.pm/en/items/3127194 |
+|     Tsunamoo        |   Moo Light System 2.2 with AudioLink Support |  2.2  | Working* (shader and mesh only, do *not* import scripts) | https://tsunamoo.booth.pm/items/4014902 |
