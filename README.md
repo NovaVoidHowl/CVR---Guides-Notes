@@ -14,6 +14,11 @@
 
 [Prop Attachment - by Shin](https://forums.abinteractive.net/d/306-prop-cvr-attachment-tutorial)  
 
+#### Resources
+Magica cloth support package:  
+ [Direct from CVR Discord #general-avatars](https://cdn.discordapp.com/attachments/588350726841827358/1008033746353655868/CCK_MagicaClothSupportModule.unitypackage)  
+ [Cached here - 2022-09-11](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/resource_cache/CCK_MagicaClothSupportModule-2022-09-11.unitypackage)  
+
 ---
 
 ## In This Repo  
