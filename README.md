@@ -38,7 +38,7 @@ Magica cloth support package:
 
 ### Prop resources
 
-[Prop Creation Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Prop%20Creation%20Info.md)  
+[Prop Creation Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Prop-Creation-Info.md)  
 
 ### Application resources
 
