@@ -18,13 +18,14 @@
 |Prone       |  Bool  |  
 |Flying      |  Bool  |  
   
-Thanks to [kafeijao](https://github.com/kafeijao), for the tools to see this info in a quick and easy way. 
+Thanks to [kafeijao](https://github.com/kafeijao), for the tools to see this info in a quick and easy way.  
 
 ---  
 
 ## bHaptics
 
 Setup restrictions:
+
 - The game object that has the CVR Haptic Area Chest on it, MUST be fully upright compared to world space (not the bone it is on)![image](https://user-images.githubusercontent.com/31048789/193452833-f6a5b663-6a0d-4edd-8701-d1f62bc1742e.png)
 - You can't toggle the game object (if you do it won't work)
 - You can't re-size the game object (relative to your avatar), size changes will get ignored.
@@ -53,4 +54,4 @@ Once setup it should show up in the Advanced Avatars section on the menu eg.
 1. If you remove a section that uses a generated animator override set, its a good idea to delete all the generated animator override/animator/animation files and let them be recreated. The files to remove should be at the following path `Assets/AdvancedSettings.Generated/<avatarname>`  
 ![image](https://user-images.githubusercontent.com/31048789/182020927-75350a7e-206c-4f6d-8a09-239aad9781f4.png)  
 2. Clear and re-add parameters in animation paths (commonly is needed when you swap a variable's type ie float>bool), note you can test this in editor by pressing the play button at the top of the unity interface and changing the parameter state in the animator to see if it responds correctly)). The console output in play mode can help in finding these 'broken' links ![image](https://user-images.githubusercontent.com/31048789/182023553-029b0573-5931-49fa-ab6d-87ccaae652eb.png)  
-3. Check for multiples of the same variable in the 'Advanced settings' section of the 'CVR Avatar' block, if there are duplicates there it will break the AAS menu and could impact animation behaviour. If you have duplicates remove them and then follow fix 1 to clear the problem.  
+3. Check for multiples of the same variable in the 'Advanced settings' section of the 'CVR Avatar' block, if there are duplicates there it will break the AAS menu and could impact animation behavior. If you have duplicates remove them and then follow fix 1 to clear the problem.  
