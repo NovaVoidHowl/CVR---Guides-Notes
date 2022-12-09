@@ -1,4 +1,4 @@
-# Avatar Creation Info  
+# Prop Creation Info  
 
 ## Common Issues  
 
