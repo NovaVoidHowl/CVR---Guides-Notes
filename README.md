@@ -40,6 +40,10 @@ Magica cloth support package:
 
 [Prop Creation Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Prop-Creation-Info.md)  
 
+### World resources
+
+[World Creation Info](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/World-Creation-Info.md)  
+
 ### Application resources
 
 [Application Connections and where they go](https://github.com/NovaVoidHowl/CVR---Guides-Notes/blob/main/Application%20Connections.md)  
