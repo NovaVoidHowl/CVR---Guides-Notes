@@ -29,6 +29,7 @@ Setup restrictions:
 - The game object that has the CVR Haptic Area Chest on it, MUST be fully upright compared to world space (not the bone it is on)![image](https://user-images.githubusercontent.com/31048789/193452833-f6a5b663-6a0d-4edd-8701-d1f62bc1742e.png)
 - You can't toggle the game object (if you do it won't work)
 - You can't re-size the game object (relative to your avatar), size changes will get ignored.
+- you should not re-size the game object that has the haptics component on it using the transforms section, instead use the sizing options in the the script component. Also it is advisable to create the game object at the root of you project hierarchy fully configure/position it, then drag it to the chest bone on the avatar (do not make changes to any variables on it once you have done this)  
 
 ---  
 
