@@ -15,3 +15,4 @@ This is my list of prefabs (mostly shader stuff) that I have tested so far.
 |     Tsunamoo        |   DJ Gear Pack with AudioLink Support  |     3.1           | Working | https://booth.pm/en/items/3104007 |
 |     Tsunamoo        |   Speakers with AudioLink Support |     2.0          | Working | https://booth.pm/en/items/3127194 |
 |     Tsunamoo        |   Moo Light System 2.2 with AudioLink Support |  2.2  | Working* (shader and mesh only, do *not* import scripts) | https://tsunamoo.booth.pm/items/4014902 |
+|     NovaVoidHowl        |   CVR Spawn Mover |  1.0.0  | Working | https://github.com/NovaVoidHowl/CVRSpawnMover |
